@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:VideoExemplo" 
+             xmlns:video="clr-namespace:Plugin.MediaManager.Forms;assembly=Plugin.MediaManager.Forms"
+             x:Class="VideoExemplo.MainPage" Padding="0,20,0,0">
+   <StackLayout>
+        <Button x:Name="btnVideo" Text="Reproduzir" Clicked="btnVideo_Clicked" />
+        <video:VideoView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" AspectMode="AspectFill" />
+    </StackLayout>
+</ContentPage>
